@@ -1,0 +1,21 @@
+bar:
+  height: 20
+  location: top
+  background: 883e9600
+  foreground: d2e7e4ff
+  spacing: 7
+  font: "LiberationMono"
+  margin: 9
+
+  left:
+      - xwindow:
+              content:
+                  string: {text: "{application}"}
+
+  right:
+    - clock:
+        content:
+          - string: {text: "{date}"}
+    - clock:
+            content:
+                - string: {text: "{time}"}
