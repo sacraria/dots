@@ -126,7 +126,7 @@ mode "resize" {
 
 exec foot --server
 
-exec wbg ~/.environment/Sinaisdooutrolado.jpg
+exec swaybg -m fill -i $HOME/.wallpapers/Sinaisdooutrolado.jpg 
 #exec swaybg --image .environment/g6wokc0sl4i91.png --mode fit --color "#ffffff"
 
 exec gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3-dark"

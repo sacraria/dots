@@ -30,7 +30,7 @@ bspc config focus_follows_pointer true
 setxkbmap -layout br &
 xinput --set-prop 12 'libinput Accel Profile Enabled' 0, 1 &
 xinput --set-prop 12 'libinput Accel Speed' -0.15 &
-feh --no-fehbg --bg-fill .environment/Sinaisdooutrolado.jpg &
+feh --no-fehbg --bg-fill .wallpapers/Sinaisdooutrolado.jpg &
 killall yambar; yambar &
 picom &
 gsettings set org.gnome.desktop.interface cursor-theme Simp1e-Solarized-Dark-Left &

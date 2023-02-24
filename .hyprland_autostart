@@ -1,6 +1,6 @@
 #!/bin/sh
 
-swaybg --mode fill --image $HOME/.environment/hendrik-morkel-3B9hcYtkmgI-unsplash.jpg &
+swaybg --mode fill --image $HOME/.wallpapers/hendrik-morkel-3B9hcYtkmgI-unsplash.jpg &
 
 pipewire() {
 gentoo-pipewire-launcher ; gentoo-pipewire-launcher
